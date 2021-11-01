@@ -1,0 +1,85 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  margin: 0;
+  padding: 0;
+  background-color: darkgrey;
+}
+#container {
+  width: 100%;
+}
+header {
+  background-color: #263248;
+}
+header h1 {
+  margin: 0;
+}
+header h1 a {
+  color: #fff;
+  text-decoration: none;
+}
+#logo {
+  text-align: center;
+}
+nav ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+nav ul li {
+  padding: 5px;
+  border-bottom: 1px solid #ccc;
+}
+nav ul li a {
+  display: inline-block; /*display inline-block and width 100% makes nav hyperlinks clickable across the page */
+  width: 100%;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+  padding: 8px 0;
+}
+/* section {        experiment to see section element instead take up 50% of screen space
+  width: 50%;
+} */
+section img {
+  width: 100%;
+  height: auto;
+}
+.left-float {
+  float: left;
+  padding: 0 15px 15px 0;
+  width: 50%;
+}
+form > div {
+  margin: 15px 0;
+}
+label {
+  display: block;
+}
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 15px;
+}
+input[type="submit"] {
+  margin: 10px auto;
+  text-align: center;
+  width: 100%;
+  padding: 15px;
+}
+#content,
+footer {
+  padding: 0 15px;
+}
+footer {
+  border-top: 1px solid #ccc;
+  margin: 20px 10px 10px 0;
+  font-size: 0.8em;
+  text-align: center;
+  font-style: italic;
+}
